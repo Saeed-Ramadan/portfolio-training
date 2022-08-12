@@ -1,0 +1,817 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav{
+position: fixed;
+
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+#mySidenav .active{
+    opacity: 1;
+}
+
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #green {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blue {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #red {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #black {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }
+
+.nav{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 166, 0);
+}
+.nav .my_img{
+   margin-top: 200px;
+   margin-left: 650px;
+}
+.nav .my_img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nav .info{
+    text-align: center;
+}
+.nav .info h1{
+    margin-left: 500px;
+   
+    font-family: 'Yuji Boku', serif;
+    color: #fff;
+    font-weight: bold;
+}
+.nav .info p{
+    font-family: 'Yuji Mai', serif;
+    color: #fff;
+    margin-left: 500px;
+    font-size: 20px;
+   
+}
+.nav .info .social ul{
+    list-style: none;
+    margin-left: 420px;
+    margin-bottom: 100px;
+}
+.nav .info .social li{
+    display: inline-block;
+}
+.nav .info .social ul li a i{
+    color: #fff;
+    margin-left: 40px;
+    font-size: 30px;
+}
+/* end of nav */
+.about_me h1{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 100px;
+}
+.about_me .detalis{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+    margin: 20px 180px;
+}
+.about_me .detalis .me_info h3{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.about_me .detalis .hello_there h3{
+    font-family: 'Acme', sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+.about_me .detalis .hello_there p{
+    color: rgb(116, 116, 116);
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+.about_me .social ul{
+    list-style: none;
+    margin-left: 550px;
+    margin-bottom: 100px;
+}
+.about_me .social li{
+    display: inline-block;
+}
+.about_me .social ul li a i{
+    color: rgb(8, 8, 8);
+    margin-left: 40px;
+    font-size: 30px;
+}
+.about_me .social ul li a i:hover{
+    color: gold;
+}
+/* end of about_me */
+.experince h1{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 100px;
+}
+
+.experince .work{
+    background-color: rgb(196, 193, 193);
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 600px;
+}
+.experince .work:hover{
+    color: gold;
+}
+.experince .work h4{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+.experince .line{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 100px;
+    margin-left: 780px;
+    margin-top: -15px;
+}
+/*-------------------------------------------*/
+.experince .Senior .sen{
+    text-align: right;
+    margin-right: 800px;
+    margin-top: -80px;
+    margin-left: 200px;
+}
+.experince .Senior .sen h3{
+    font-family: 'Genos', sans-serif;
+    margin-bottom: 20px;
+}
+.experince .Senior .sen h6{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+.experince .Senior .sen p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.experince .Senior .bag{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    margin-left: 760px;
+}
+.experince .Senior .bag #b{
+    margin-left: 15px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+/* Senior */
+/*-------------------------------------------*/
+.experince .line1{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 200px;
+    margin-left: 780px;
+    margin-top: -80px;
+}
+.experince .Junior .jon{
+    margin-right: 200px;
+    margin-top: -30px;
+    margin-left: 850px;
+}
+.experince .Junior .jon h3{
+    font-family: 'Genos', sans-serif;
+    margin-bottom: 20px;
+}
+.experince .Junior .jon h6{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+.experince .Junior .jon p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.experince .Junior .bag1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    margin-left: 760px;
+    margin-top: -160px;
+}
+.experince .Junior .bag1 #b{
+    margin-left: 15px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+/*Junior*/
+/*-------------------------------------------*/
+.experince .line2{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 150px;
+    margin-left: 780px;
+    margin-top: 0px;
+}
+.experince .UI .ux{
+    text-align: right;
+    margin-right: 800px;
+    margin-top: -80px;
+    margin-left: 200px;
+}
+.experince .UI .ux h3{
+    font-family: 'Genos', sans-serif;
+    margin-bottom: 20px;
+}
+.experince .UI .ux h6{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+.experince .UI .ux p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.experince .UI .bag2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    margin-left: 760px;
+}
+.experince .UI .bag2 #b{
+    margin-left: 15px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+/*UI*/
+/*-------------------------------------------*/
+.experince .line3{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 150px;
+    margin-left: 780px;
+    margin-top: -83px;
+}
+.experince .EDUCATION{
+    background-color: rgb(196, 193, 193);
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 660px;
+}
+.experince .EDUCATION:hover{
+    color: gold;
+}
+.experince .EDUCATION h4{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+/*--------------------------------------------*/
+.experince .line1{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 200px;
+    margin-left: 780px;
+    margin-top: -80px;
+}
+.experince .Masters .mas{
+    margin-right: 200px;
+    margin-top: -30px;
+    margin-left: 850px;
+}
+.experince .Masters .mas h3{
+    font-family: 'Genos', sans-serif;
+    margin-bottom: 20px;
+}
+.experince .Masters .mas h6{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+.experince .Masters .mas p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.experince .Masters .bag1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    margin-left: 760px;
+    margin-top: -160px;
+}
+.experince .Masters .bag1 #g{
+    margin-left: 13px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+/*Masters*/
+/*-------------------------------------------*/
+.experince .line2{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 150px;
+    margin-left: 780px;
+    margin-top: 0px;
+}
+.experince .Bachelors .ba{
+    text-align: right;
+    margin-right: 800px;
+    margin-top: -80px;
+    margin-left: 200px;
+}
+.experince .Bachelors .ba h3{
+    font-family: 'Genos', sans-serif;
+    margin-bottom: 20px;
+}
+.experince .Bachelors .ba h6{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+.experince .Bachelors .ba p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.experince .Bachelors .bag2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    margin-left: 760px;
+}
+.experince .Bachelors .bag2 #g{
+    margin-left: 13px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+/*Bachelors*/
+/*-------------------------------------------*/
+.experince .line1{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 200px;
+    margin-left: 780px;
+    margin-top: -80px;
+}
+.experince .Diploma .dip{
+    margin-right: 200px;
+    margin-top: -30px;
+    margin-left: 850px;
+}
+.experince .Diploma .dip h3{
+    font-family: 'Genos', sans-serif;
+    margin-bottom: 20px;
+}
+.experince .Diploma .dip h6{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+.experince .Diploma .dip p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.experince .Diploma .bag1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    margin-left: 760px;
+    margin-top: -160px;
+}
+.experince .Diploma .bag1 #g{
+    margin-left: 13px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+/*Diploma*/
+/*-------------------------------------------*/
+.experince .line2{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 150px;
+    margin-left: 780px;
+    margin-top: 0px;
+}
+.experince .Graduation .gra{
+    text-align: right;
+    margin-right: 800px;
+    margin-top: -80px;
+    margin-left: 200px;
+}
+.experince .Graduation .gra h3{
+    font-family: 'Genos', sans-serif;
+    margin-bottom: 20px;
+}
+.experince .Graduation .gra h6{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(172, 172, 172);
+    margin-bottom: 20px;
+}
+.experince .Graduation .gra p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+.experince .Graduation .bag2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    margin-left: 760px;
+}
+.experince .Graduation .bag2 #g{
+    margin-left: 13px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+/*Graduation*/
+/*-------------------------------------------*/
+.experince .line5{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.1px;
+    height: 120px;
+    margin-left: 780px;
+    margin-top: -83px;
+}
+/* end of experince */
+
+.services h1{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 100px;
+}
+.services .ser{
+    margin: 10px 200px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.services .ser .Web_Design{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.services .ser .Web_Design img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: 25px;
+}
+.services .ser .Web_Design h3{
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 25px;
+}
+.services .ser .Web_Design p{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: rgb(163, 162, 162);
+}
+/*Web_Design*/
+/*-----------------------------------------*/
+.services .ser .Branding{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.services .ser .Branding img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: 25px;
+}
+.services .ser .Branding h3{
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 25px;
+}
+.services .ser .Branding p{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: rgb(163, 162, 162);
+}
+/*Branding*/
+/*-----------------------------------------*/
+.services .ser .Analytics{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.services .ser .Analytics img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: 25px;
+}
+.services .ser .Analytics h3{
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 25px;
+}
+.services .ser .Analytics p{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: rgb(163, 162, 162);
+}
+/*Analytics*/
+/*-----------------------------------------*/
+.services .ser .Web_Developent{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.services .ser .Web_Developent img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: 25px;
+}
+.services .ser .Web_Developent h3{
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 25px;
+}
+.services .ser .Web_Developent p{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: rgb(163, 162, 162);
+}
+/*Web_Developent*/
+/*-----------------------------------------*/
+.services .ser .Web_Marketing{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.services .ser .Web_Marketing img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: 25px;
+}
+.services .ser .Web_Marketing h3{
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 25px;
+}
+.services .ser .Web_Marketing p{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: rgb(163, 162, 162);
+}
+/*Web_Marketing*/
+/*-----------------------------------------*/
+.services .ser .Support{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.services .ser .Support img{
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+    margin-left: 25px;
+}
+.services .ser .Support h3{
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 25px;
+}
+.services .ser .Support p{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: rgb(163, 162, 162);
+}
+/*Support*/
+/*-----------------------------------------*/
+/*services*/
+
+.skills h1{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 100px;
+}
+.tile-progress {
+    background-color: #303641;
+    color: #fff;
+    }
+    .tile-progress {
+    background: #00a65b;
+    color: #fff;
+    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    }
+    .tile-progress .tile-header {
+    padding: 15px 20px;
+    padding-bottom: 40px;
+    }
+    .tile-progress .tile-progressbar {
+    height: 2px;
+    background: rgba(0,0,0,0.18);
+    margin: 0;
+    }
+    .tile-progress .tile-progressbar span {
+    background: #fff;
+    }
+    .tile-progress .tile-progressbar span {
+    display: block;
+    background: #fff;
+    width: 0;
+    height: 100%;
+    -webkit-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    -moz-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    -o-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    }
+    .tile-progress .tile-footer {
+    padding: 20px;
+    text-align: right;
+    background: rgba(0,0,0,0.1);
+    -webkit-border-radius: 0 0 3px 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 0 3px 3px;
+    -moz-background-clip: padding;
+    border-radius: 0 0 3px 3px;
+    background-clip: padding-box;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    }
+    .tile-progress.tile-red {
+    background-color: #f56954;
+    color: #fff;
+    }
+    .tile-progress {
+    background-color: #303641;
+    color: #fff;
+    }
+    .tile-progress.tile-blue {
+    background-color: #0073b7;
+    color: #fff;
+    }
+    .tile-progress.tile-aqua {
+    background-color: #00c0ef;
+    color: #fff;
+    }
+    .tile-progress.tile-green {
+    background-color: #00a65a;
+    color: #fff;
+    }
+    .tile-progress.tile-cyan {
+    background-color: #00b29e;
+    color: #fff;
+    }
+    .tile-progress.tile-purple {
+    background-color: #ba79cb;
+    color: #fff;
+    }
+    .tile-progress.tile-pink {
+    background-color: #ec3b83;
+    color: #fff;
+    }
+
+/* end of skills*/
+.work1 h1{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 100px;
+}
+.work1 .project{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-column: 20px;
+    grid-row: 20px;
+    margin: 10px 100px;
+}
+.work1 .project .pro1 img{
+    width: 300px;
+    height: 250px;
+}
+/*end of work1*/
+/*-------------------------------------*/
+
+.post h1{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 100px;
+}
+/*end of post*/
+/*-------------------------------------*/
+.Hire{
+    background-color: rgb(255, 123, 0);
+    height: 50vh;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px 0px 0px 0px ;
+}
+.Hire h2{
+    margin-left: 650px;
+    margin-top: 20px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 50px;
+    color: #fff;
+}
+.Hire p{
+    text-align: center;
+    margin: 20px 400px;
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+}
+.Hire button{
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgb(255, 94, 0);
+    border: none;
+    margin-left: 695px;
+    padding: 5px;
+}
+/*-------------------------------------*/
+
+.contact h2{
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: 'Genos', sans-serif;
+    font-size: 60px; 
+    margin-bottom: 100px;
+}
+.contact{
+    margin: 20px 50px 50px 50px;
+}
